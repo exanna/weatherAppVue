@@ -50,13 +50,17 @@ export default {
       font-size: 20px;
       text-align: center;
       min-width: 300px;
-      background-color: rgba(0,0,0, .25);
+      background-color: rgba(0,0,0, .30);
       border-radius: 40px;
       padding: 30px;
       
+      @media(min-width: 768px) {
+         min-width: 400px;
+      }
       span {
          font-family: 'Ultra', serif;
       }
+
    }
 
    .temperature, 
@@ -65,12 +69,20 @@ export default {
       justify-content: space-between;
       align-items: center;
       font-size: 18px;
+
+      @media(min-width: 768px) {
+         font-size: 24px;
+      }
    }
 
    .temperature {
       flex-direction: column;
       span {
          font-size: 50px;
+
+         @media(min-width: 768px) {
+            font-size: 70px;
+         }
       }
    }
 </style>

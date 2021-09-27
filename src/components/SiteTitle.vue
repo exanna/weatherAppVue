@@ -1,5 +1,5 @@
 <template>   
-   <h1 class="title">Check the weather</h1>   
+   <h1 class="title">Enter city:</h1>   
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default { name: 'Title' };
    z-index: 1; 
    text-align: center;
    font-size: 20px;
-   font-weight: 400;
+   font-weight: 500;
    margin-top: -160px;
 
    @media (min-width: 768px) {
